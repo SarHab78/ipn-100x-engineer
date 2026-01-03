@@ -3,7 +3,7 @@
 import { useState, FormEvent } from 'react';
 
 interface SearchFormProps {
-  onSearch: (location: string) => void;
+  onSearch: (_query: string) => void;
   isLoading: boolean;
 }
 
